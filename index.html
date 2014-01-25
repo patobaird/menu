@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="http://getbootstrap.com/docs-assets/ico/favicon.png">
 
-    <title>Theme Template for Bootstrap</title>
+    <title>Eyes</title>
 
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
@@ -17,6 +17,8 @@
 
     <!-- Custom styles for this template -->
     <link href="http://getbootstrap.com/examples/theme/theme.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css"/>
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -40,28 +42,74 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://getbootstrap.com/examples/theme/#">Bootstrap theme</a>
+            <a id="link_home" class="navbar-brand" href="#"><span class="glyphicon glyphicon-eye-open"></span>Eyes</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="http://getbootstrap.com/examples/theme/#">Home</a></li>
-                <li><a href="http://getbootstrap.com/examples/theme/#about">About</a></li>
-                <li><a href="http://getbootstrap.com/examples/theme/#contact">Contact</a></li>
-                <li class="dropdown">
-                    <a href="http://getbootstrap.com/examples/theme/#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="http://getbootstrap.com/examples/theme/#">Action</a></li>
-                        <li><a href="http://getbootstrap.com/examples/theme/#">Another action</a></li>
-                        <li><a href="http://getbootstrap.com/examples/theme/#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="http://getbootstrap.com/examples/theme/#">Separated link</a></li>
-                        <li><a href="http://getbootstrap.com/examples/theme/#">One more separated link</a></li>
-                    </ul>
-                </li>
+                <li id="link_a"><a href="#">A</a></li>
+                <li id="link_b"><a href="#">B</a></li>
+                <li id="link_c"><a href="#">C</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
+</div>
+
+<!--Content for Home-->
+<div id="home-content" class="container">
+    <ul class="list-unstyled">
+        <li>Home</li>
+    </ul>
+</div>
+
+<!--Content for A-->
+<div id="a-content" class="container">
+    <ul class="list-unstyled">
+        <li id="adam_jones"><a href="#">Adam Jones</a></li>
+        <li id="anne_smith"><a href="#">Anne Smith</a></li>
+        <li>Alan Mark</li>
+        <li>Aaron Disman</li>
+        <li>Alice Wonderland</li>
+        <li>Art Jacobs</li>
+    </ul>
+</div>
+
+<!--Content for B-->
+<div id="b-content" class="container">
+    <ul class="list-unstyled">
+        <li>B Content</li>
+    </ul>
+</div>
+
+<!--Content for C-->
+<div id="c-content" class="container">
+    <ul class="list-unstyled">
+        <li>C Content</li>
+    </ul>
+</div>
+
+<!--Form-->
+<div id="form" class="container">
+    <form role="form">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"> Check me out
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
 </div>
 
 <!-- Bootstrap core JavaScript
@@ -70,6 +118,7 @@
 <script src="./index_files/jquery-1.10.2.min.js"></script>
 <script src="./index_files/bootstrap.min.js"></script>
 <script src="./index_files/holder.js"></script>
+<script src="js/main.js"></script>
 
 
 <div id="window-resizer-tooltip" style="display: block;"><a href="http://getbootstrap.com/examples/theme/#" title="Edit settings" style="background-image: url(chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/images/icon_19.png);"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1436</span> x <span class="tooltipHeight" id="winHeight">830</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1436</span> x <span class="tooltipHeight" id="vpHeight">691</span></div></body></html>
